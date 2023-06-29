@@ -1,0 +1,36 @@
+.container{
+    height:1500px;
+}
+#navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+#navbar::before{
+    height:150px;
+}
+#navbar .menu li a{
+    font-size: 0.7rem;
+    padding:0px;
+}
+#navbar .corner input{
+    margin:2px;
+}
+.h-primary{
+    font-size: 2rem;
+    top:1px;
+}
+#main{
+    height:790px;
+}
+#main .boxes{
+    flex-wrap: wrap;
+}
+.timeheading{
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    font-size: 1rem;
+     
+}
